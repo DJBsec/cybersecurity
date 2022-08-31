@@ -1,5 +1,5 @@
 
-## Cyber Maps
+## Cyber Maps - Pew Pew Maps
 
 1. [Kaspersky](https://cybermap.kaspersky.com/)
 2. [norsenet.com](https://norsenet.com/)
