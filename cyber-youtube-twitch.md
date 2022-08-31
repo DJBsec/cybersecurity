@@ -1,5 +1,6 @@
 
 # Cybersecurity Youtube/Twitch Channels
+### I will link all these sites once I've got the time
 
  - Infosec Institute — Cybersecurity awareness. 
  - Black Hat — Technical cybersecurity conferences.
