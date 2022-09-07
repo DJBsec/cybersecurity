@@ -1,0 +1,25 @@
+# Resources to learn about API security testing
+
+- Video: Traceable AI, API Hacking 101
+- Video: Katie Paxton-Fear, API Hacking
+- Video: Bugcrowd, Bad API, hAPI Hackers
+- Video: OWASP API Security Top 10 Webinar
+- Blog: Detectify, How To Hack API's in 2021
+- Blog: HackXpert, Let's build an API to hack
+- Video: Bugcrowd, API Security 101 by Sadako
+- Video: David Bombal, Free API Hacking Course
+- Blog: Wallarm, How To Hack API In 60 Minutes
+- Website: APIsecurity IO, API Security Articles
+- Blog: Curity, The API Security Maturity Model
+- Blog: Expedited Security, API Security MegaGuide
+- Video: Grant Ongers, API Security Testing Workshop
+- Videos: The XSS Rat, API Testing And Securing Guide
+- Blog: APIsec OWASP API Security Top 10: A Deep Dive
+- Podcast: We Hack Purple, API Security Best Practices
+- Blog: Kontra Application Security, Owasp Top 10 for API
+- Blog: Secure Delivery, OWASP API Top 10 CTF Walk-through
+- Blog: SmartBear, How To Hack An API And Get Away With It
+- Blog: Ping Identity, API Security: The Complete Guide 2022
+- Video: SANS Offensive Operations, Analyzing OWASP API Security
+- Blog: Bend Theory, Exploiting Unintended Functionality in API's
+- Blog: Bright Security, Complete Guide to Threats, Methods & Tools
