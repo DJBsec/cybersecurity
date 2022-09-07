@@ -1,0 +1,26 @@
+ # Online resources to learn MySQL
+
+- SQLZOO
+- SQLBolt
+- LinuxJedi
+- SQLCourse
+- CodeQuizzes
+- Planet MySQL
+- Master MySQL
+- MySQL Learn2torials
+- Learn MySQL, Memrise
+- Tizag MySQL Tutorials
+- W3Schools SQL Tutorials
+- SQL Basics Khan Academy
+- Phptpoint MySQL Tutorial
+- RoseIndia MySQL Tutorials
+- MySQL on Linux Like Geeks
+- The New Boston MySQL Videos
+- Mastering MySQL by Mark Leith
+- Tutorials Point MySQL Tutorial
+- KillerPHP MySQL Video Tutorials
+- PYnative MySQL Database Tutorial
+- Digital Ocean Basic MySQL Tutorial
+- Journal to SQL Authority, Pinal Dave
+- MySQL Tutorial, Learn MySQL Fast, Easy and Fun
+- MySQL For Beginners, Programming With Mosh
