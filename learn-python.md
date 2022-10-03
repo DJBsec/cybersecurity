@@ -1,0 +1,27 @@
+# Learn Python for free
+
+- Think Python — Free Ebook
+- Think Python 2e — Free Ebook
+- A Byte of Python — Free Ebook
+- Real Python — Online Platform
+- Full Stack Python — Free Ebook
+- freeCodeCamp — Online Platform
+- Dive Into Python 3 — Free Ebook
+- Practice Python — Online Platform
+- The Python Guru — Online Platform
+- The Coder's Apprentice — Free Ebook
+- Python Principles — Online Platform
+- Harvard's CS50 Python Video — Video
+- Cracking Codes With Python — Free Ebook
+- Learn Python, Break Python — Free Ebook
+- Google's Python Class — Online Platform
+- Python Like You Mean It — Online Platform
+- Beyond the Basic Stuff with Python — Free Ebook
+- Automate the Boring Stuff with Python — Free Ebook
+- The Big Book of Small Python Projects — Free Ebook
+- Python Tutorial for Beginners, Telusko — Free Videos
+- Learn Python 3 From Scratch — Free Interactive Course
+- Python Tutorial For Beginners, Edureka — Online Platform
+- Microsoft's Introduction to Python Course — Online Platform
+- Beginner's Guide to Python, Official Wiki — Online Platform
+- Python for Everybody Specialization, Coursera — Online Platform
