@@ -1,6 +1,5 @@
 
 # Cybersecurity News Resources
-### I will link all these sites once I've got the time
 
 * [IT Security Guru](https://www.itsecurityguru.org/)
 * [Security Weekly](https://www.securityweek.com/)
