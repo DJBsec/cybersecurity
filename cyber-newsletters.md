@@ -1,27 +1,38 @@
 # Cyber Newsletters 
-### I will link all these sites once I've got the time
 
-* AdvisoryWeek — Security advisory roundups by major vendors.
-* We Live Security — Award-winning news, views and insights.
-* CSO Online — News, analysis and research on security and risk management.
-* tl;dr sec Newsletter — Tools, blog posts, conference talks and research.
-* Shift Security Left — Application security, architecture, and incidents.
-* Unsupervised Learning Community — Important cybersecurity stories.
-* Threatpost — Exploits, vulnerabilities, malware and cybersecurity.
-* Blockchain Threat Intelligence — Tools, events, threats.
-* Gov Info Security — Domestic and international governmental cybersecurity news.
-* AWS Security Digest — AWS security updates.
-* The Hacker News — Cybersecurity news.
-* Krebs On Security — Investigative cybersecurity journalism that's interesting.
-* This Week in 4n6 — DFIR updates.
-* SecPro — Analysis of threats, attacks and tutorials.
-* Naked Security — How to protect yourself from attacks etc.
-* API Security Newsletter — API security news and vulnerabilities.
-* CyberSecNewsWeekly — Collection of news, articles and tools.
-* Zero Day — Stories about hackers, spies and cybercrime.
-* Schneier on Security —Cybersecurity news and opinions.
-* Hive Five Newsletter — Curated cybersecurity news.
-* Graham Cluley — Cybersecurity news and opinions.
-* TripWire’s State of Security — Corporate cybersecurity news.
-* RTCSec — News around VOIP and WebRTC security.
-* Risky Biz — Analysis of big cyber stories.
+* [AdvisoryWeek — Security advisory roundups by major vendors.](https://www.advisoryweek.com/)
+* [API Security Newsletter — API security news and vulnerabilities.](https://apisecurity.io/)
+* [AWS Security Digest — AWS security updates.](https://awssecuritydigest.com/)
+* [Bank Info Security](https://www.bankinfosecurity.com/)
+* [Blockchain Threat Intelligence — Tools, events, threats.](https://newsletter.blockthreat.io/)
+* [CSO Online — News, analysis and research on security and risk management.](https://www.csoonline.com/)
+* [Cyber Crime Magazine](https://cybersecurityventures.com/mailing-list/)
+* [Cyber Magazine](https://cybermagazine.com/)
+* [CyberSecNewsWeekly — Collection of news, articles and tools.](https://cybersecweekly.com/)
+* [Daily Briefing](https://thecyberwire.com/newsletters/daily-briefing)
+* [Dark Reading](https://www.darkreading.com/newsletter-signup/)
+* [Gov Info Security — Domestic and international governmental cybersecurity news.](https://www.govinfosecurity.com/)
+* [Graham Cluley — Cybersecurity news and opinions.](https://grahamcluley.com/gchq-newsletter/)
+* [HackRead](https://www.hackread.com/)
+* [HelpNet](https://www.helpnetsecurity.com/)
+* [Hive Five Newsletter — Curated cybersecurity news.](https://securib.ee/newsletter/)
+* [Infosecurity Magazine](https://www.infosecurity-magazine.com/)
+* [IT Security Guru](https://www.itsecurityguru.org/)
+* [Krebs On Security — Investigative cybersecurity journalism that's interesting.](https://krebsonsecurity.com/subscribe/)
+* [Naked Security — How to protect yourself from attacks etc.](https://nakedsecurity.sophos.com/)
+* [Risky Biz — Analysis of big cyber stories.](https://risky.biz/)
+* [RTCSec — News around VOIP and WebRTC security.](https://rtcsec.com/newsletter/)
+* [SANS](https://www.sans.org/newsletters/)
+* [Schneier on Security —Cybersecurity news and opinions.](https://www.schneier.com/crypto-gram/)
+* [SecPro — Analysis of threats, attacks and tutorials.](https://security.packt.com/malware-analysis/)
+* [Security Magazine](https://www.securitymagazine.com/)
+* [Security Weekly Insider](https://securityweekly.com/blog)
+* [Security Week's Daily Briefing](https://www.securityweek.com/)
+* [The Hacker News — Cybersecurity news.](https://thehackernews.com/)
+* [This Week in 4n6 — DFIR updates.](https://thisweekin4n6.com/)
+* [Threatpost — Exploits, vulnerabilities, malware and cybersecurity.](https://threatpost.com/)
+* [tl;dr sec Newsletter — Tools, blog posts, conference talks and research.](https://tldrsec.com/)
+* [TripWire’s State of Security — Corporate cybersecurity news.](https://www.tripwire.com/state-of-security/)
+* [Unsupervised Learning Community — Important cybersecurity stories.](https://danielmiessler.com/newsletter/)
+* [We Live Security — Award-winning news, views and insights.](https://www.welivesecurity.com/en/)
+* [Zero Day — Stories about hackers, spies and cybercrime.](https://www.zetter-zeroday.com/)
