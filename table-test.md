@@ -27,4 +27,4 @@
 |		|		|	* [TripWire’s State of Security — Corporate cybersecurity news.](https://www.tripwire.com/state-of-security/)	|
 |		|		|	* [Unsupervised Learning Community — Important cybersecurity stories.](https://danielmiessler.com/newsletter/)	|
 |		|		|	* [We Live Security — Award-winning news, views and insights.](https://www.welivesecurity.com/en/)	|
-		|		|	* [Zero Day — Stories about hackers, spies and cybercrime.](https://www.zetter-zeroday.com/)	|
+|		|		|	* [Zero Day — Stories about hackers, spies and cybercrime.](https://www.zetter-zeroday.com/)	|
