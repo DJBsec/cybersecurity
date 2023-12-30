@@ -22,8 +22,8 @@
 - [The Tao of Open Source Intelligence](https://a.co/d/6r1fJvM)
 
 ## Business Books
-[The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win 5th Anniversary Edition](https://a.co/d/ebZ90xC)
-[Beyond the Phoenix Project: The Origins and Evolution of DevOps](https://a.co/d/3G2i5PJ)
-[The Unicorn Project: A Novel About Developers, Digital Disruption, and Thriving in the Age of Data](https://a.co/d/dkafgPm)
+- [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win 5th Anniversary Edition](https://a.co/d/ebZ90xC)
+- [Beyond the Phoenix Project: The Origins and Evolution of DevOps](https://a.co/d/3G2i5PJ)
+- [The Unicorn Project: A Novel About Developers, Digital Disruption, and Thriving in the Age of Data](https://a.co/d/dkafgPm)
 - [The Advantage: Why Organizational Health Trumps Everything Else in Business](https://a.co/d/d3EYFZ9)
 - [The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change](https://a.co/d/asvdDZz)
