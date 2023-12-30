@@ -1,4 +1,4 @@
-# List to follow on twitter
+# List to follow on twitter/X
 
 * [Anonymous](https://twitter.com/YourAnonNews)
 * [Anonymous Content](https://twitter.com/anoncontent)
