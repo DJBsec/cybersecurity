@@ -1,27 +1,27 @@
 # Learn Python for free
 
+- A Byte of Python — Free Ebook
+- Automate the Boring Stuff with Python — Free Ebook
+- Beginner's Guide to Python, Official Wiki — Online Platform
+- Beyond the Basic Stuff with Python — Free Ebook
+- Cracking Codes With Python — Free Ebook
+- Dive Into Python 3 — Free Ebook
+- freeCodeCamp — Online Platform
+- Full Stack Python — Free Ebook
+- Google's Python Class — Online Platform
+- Harvard's CS50 Python Video — Video
+- Learn Python 3 From Scratch — Free Interactive Course
+- Learn Python, Break Python — Free Ebook
+- Microsoft's Introduction to Python Course — Online Platform
+- Practice Python — Online Platform
+- Python for Everybody Specialization, Coursera — Online Platform
+- Python Like You Mean It — Online Platform
+- Python Principles — Online Platform
+- Python Tutorial For Beginners, Edureka — Online Platform
+- Python Tutorial for Beginners, Telusko — Free Videos
+- Real Python — Online Platform
+- The Big Book of Small Python Projects — Free Ebook
+- The Coder's Apprentice — Free Ebook
+- The Python Guru — Online Platform
 - Think Python — Free Ebook
 - Think Python 2e — Free Ebook
-- A Byte of Python — Free Ebook
-- Real Python — Online Platform
-- Full Stack Python — Free Ebook
-- freeCodeCamp — Online Platform
-- Dive Into Python 3 — Free Ebook
-- Practice Python — Online Platform
-- The Python Guru — Online Platform
-- The Coder's Apprentice — Free Ebook
-- Python Principles — Online Platform
-- Harvard's CS50 Python Video — Video
-- Cracking Codes With Python — Free Ebook
-- Learn Python, Break Python — Free Ebook
-- Google's Python Class — Online Platform
-- Python Like You Mean It — Online Platform
-- Beyond the Basic Stuff with Python — Free Ebook
-- Automate the Boring Stuff with Python — Free Ebook
-- The Big Book of Small Python Projects — Free Ebook
-- Python Tutorial for Beginners, Telusko — Free Videos
-- Learn Python 3 From Scratch — Free Interactive Course
-- Python Tutorial For Beginners, Edureka — Online Platform
-- Microsoft's Introduction to Python Course — Online Platform
-- Beginner's Guide to Python, Official Wiki — Online Platform
-- Python for Everybody Specialization, Coursera — Online Platform
