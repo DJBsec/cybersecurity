@@ -14,7 +14,7 @@
 |	* [Cyber Defense Magazine](https://www.cyberdefensemagazine.com/)	|	* [Hive Five NEWSLETTER — Curated cybersecurity news.](https://securib.ee/newsletter/)	|	* [Security Week's Daily Briefing](https://www.securityweek.com/)	|
 |	* [Cyber Magazine](https://cybermagazine.com/)	|	* [Information Security Buzz](https://informationsecuritybuzz.com/)	|	* [TaoSecurity](https://www.taosecurity.com/)	|
 |	* [Cyber Security Review](https://www.cybersecurity-review.com/)	|	* [Infosecurity Magazine](https://www.infosecurity-magazine.com/)	|	* [TechWorm](https://www.techworm.net/)	|
-|	* [Cybers Guards](https://cyberguards.com/)	|	* [Internet Storm Center | SANS](https://isc.sans.edu/)	|	* [The CyberWire](https://thecyberwire.com/)	|
+|	* [Cybers Guards](https://cyberguards.com/)	|	* [Internet Storm Center  SANS](https://isc.sans.edu/)	|	* [The CyberWire](https://thecyberwire.com/)	|
 |	* [CyberSecNewsWeekly — Collection of news, articles and tools.](https://cybersecweekly.com/)	|	* [IT Security Guru](https://www.itsecurityguru.org/)	|	* [The Hacker News — Cybersecurity news.](https://thehackernews.com/)	|
 |	* [Cybersecurity Insiders](https://www.cybersecurity-insiders.com/)	|	* [Krebs On Security NEWSLETTER — Investigative cybersecurity journalism that's interesting.](https://krebsonsecurity.com/subscribe/)	|	* [The Hacker News](https://thehackernews.com/)	|
 |		|	* [Krebs on Security](https://krebsonsecurity.com/)	|	* [The Last Watchdog](https://www.lastwatchdog.com/)	|
