@@ -1,4 +1,4 @@
-# Welcoem to DJBSec's Cybersecurity Repo
+# Welcome to DJBSec's Cybersecurity Repo
 We've got recommendations for
 - Books
 - News Resources
