@@ -1,6 +1,8 @@
-#################################################################################################
-## This script is a remake of the python script I created to use the EPSS API to get the score ##
-#################################################################################################
+########################################################
+### The following script uses the EPSS API to get    ###
+### the EPSS Score and then output it with a         ###
+### corresponding Color.                             ###
+########################################################
 
 function Fetch-EpssData {
     param (
