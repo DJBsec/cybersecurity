@@ -21,5 +21,5 @@
 | [Jack Rhysider](https://x.com/JackRhysider) | [US-CERT](https://x.com/USCERT_gov) |
 | [John Hammond](https://x.com/_JohnHammond) | [USCYBERCOM Cybersecurity Alert](https://x.com/CNMF_CyberAlert) |
 | [Kaspersky Industrial CyberSecurity](https://x.com/KasperskyICS) | [Vuln Hub](https://x.com/VulnHub) |
-| [Kevin Beaumont](https://x.com/GossiTheDog) |                                            |
-| [Marcus Hutchins](https://x.com/MalwareTechBlog) |                                            |
+| [Kevin Beaumont](https://x.com/GossiTheDog) |   [Marcus Hutchins](https://x.com/MalwareTechBlog)                                         |
+
