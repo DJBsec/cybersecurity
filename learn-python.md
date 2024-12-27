@@ -2,26 +2,24 @@
 
 - [A Byte of Python](https://python.swaroopch.com/) — Free Ebook
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)— Free Ebook
-- Beginner's Guide to Python, Official Wiki — Online Platform
-- Beyond the Basic Stuff with Python — Free Ebook
-- Cracking Codes With Python — Free Ebook
-- Dive Into Python 3 — Free Ebook
-- freeCodeCamp — Online Platform
-- Full Stack Python — Free Ebook
-- Google's Python Class — Online Platform
-- Harvard's CS50 Python Video — Video
-- Learn Python 3 From Scratch — Free Interactive Course
-- Learn Python, Break Python — Free Ebook
-- Microsoft's Introduction to Python Course — Online Platform
-- Practice Python — Online Platform
-- Python for Everybody Specialization, Coursera — Online Platform
-- Python Like You Mean It — Online Platform
-- Python Principles — Online Platform
-- Python Tutorial For Beginners, Edureka — Online Platform
-- Python Tutorial for Beginners, Telusko — Free Videos
-- Real Python — Online Platform
-- The Big Book of Small Python Projects — Free Ebook
-- The Coder's Apprentice — Free Ebook
-- The Python Guru — Online Platform
-- Think Python — Free Ebook
-- Think Python 2e — Free Ebook
+- [Beginner's Guide to Python, Official Wiki](https://wiki.python.org/moin/BeginnersGuide) — Online Platform
+- [Beyond the Basic Stuff with Python](https://inventwithpython.com/beyond/) — Free Ebook
+- [Cracking Codes With Python](https://inventwithpython.com/cracking/) — Free Ebook
+- [Dive Into Python 3](https://diveintopython3.net/) — Free Ebook
+- [freeCodeCamp]() — Online Platform
+- [Full Stack Python](https://www.fullstackpython.com/) — Free Ebook
+- [Google's Python Class](https://developers.google.com/edu/python) — Online Platform
+- [Harvard's CS50 Python Video](https://www.youtube.com/watch?v=nLRL_NcnK-4) — Video
+- [Learn Python 3 From Scratch](https://www.educative.io/courses/learn-python-3-from-scratch) — Free Interactive Course
+- [Microsoft's Introduction to Python Course](https://learn.microsoft.com/en-us/training/modules/intro-to-python/) — Online Platform
+- [Practice Python](https://www.practicepython.org/) — Online Platform
+- [Python for Everybody Specialization, Coursera](https://www.coursera.org/specializations/python) — Online Platform
+- [Python Like You Mean It](https://www.pythonlikeyoumeanit.com/) — Online Platform
+- [Python Principles](https://pythonprinciples.com/) — Online Platform
+- [Python Tutorial For Beginners, Edureka](https://www.edureka.co/blog/python-tutorial/) — Online Platform
+- [Python Tutorial for Beginners, Telusko](https://www.youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3) — Free Videos
+- [Real Python](https://realpython.com/) — Online Platform
+- [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/) — Free Ebook
+- [The Coder's Apprentice](https://www.spronck.net/pythonbook/) — Free Ebook
+- [The Python Guru](https://thepythonguru.com/) — Online Platform
+- [Think Python](https://allendowney.github.io/ThinkPython/) — Free Ebook
