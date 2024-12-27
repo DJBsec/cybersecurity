@@ -2,7 +2,7 @@
 # Cybersecurity Youtube/Twitch Channels
 ### I will link all these sites once I've got the time
 
-- [13Cubed]https://www.youtube.com/@13Cubed) — Videos on tools, forensics, and incident response
+- [13Cubed](https://www.youtube.com/@13Cubed) — Videos on tools, forensics, and incident response
 - [Black Hat](https://www.youtube.com/@BlackHatOfficialYT) — Technical cybersecurity conferences
 - [BlackPerl](https://www.youtube.com/@BlackPerl) — Malware analysis, forensics and incident response
 - [Bugcrowd](https://www.youtube.com/@Bugcrowd) — Bug bounty methodology and interviews
