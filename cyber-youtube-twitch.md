@@ -8,7 +8,7 @@
 - [Bugcrowd](https://www.youtube.com/@Bugcrowd) — Bug bounty methodology and interviews
 - [Computerphile](https://www.youtube.com/@Computerphile) — Covers basic concepts and techniques
 - [Cyber Insecurity](https://www.youtube.com/@CyberInsecurity) — Career discussions and interviews
-- [David Bombal](David Bombal) — Everything cybersecurity related
+- [David Bombal](https://www.youtube.com/@davidbombal) — Everything cybersecurity related
 - [HackerSploit](https://www.youtube.com/@HackerSploit) — Penetration testing, web-application hacking
 - [Hak5](https://www.youtube.com/@hak5) — General cybersecurity coverage
 - [InfoSec Live](https://www.youtube.com/@infoseclive) — Everything from tutorials to interviews
