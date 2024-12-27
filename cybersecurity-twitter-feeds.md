@@ -1,5 +1,5 @@
 # List to follow on twitter/X
-|                                  | Column 2                                   |
+|X FEEDS                                  | X FEEDS                                   |
 |--------------------------------------------|--------------------------------------------|
 | [Anonymous](https://x.com/YourAnonNews) | [Metasploit Project](https://x.com/metasploit) |
 | [Anonymous Content](https://x.com/anoncontent) | [Microsoft 365 Status](https://x.com/MSFT365Status) |
