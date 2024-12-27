@@ -1,7 +1,7 @@
 # Learn Python for free
 
-- A Byte of Python — Free Ebook
-- Automate the Boring Stuff with Python — Free Ebook
+- [A Byte of Python] (https://python.swaroopch.com/) — Free Ebook
+- [Automate the Boring Stuff with Python] (https://automatetheboringstuff.com/)— Free Ebook
 - Beginner's Guide to Python, Official Wiki — Online Platform
 - Beyond the Basic Stuff with Python — Free Ebook
 - Cracking Codes With Python — Free Ebook
