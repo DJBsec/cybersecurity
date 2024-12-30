@@ -19,5 +19,5 @@
 - [The Life Hacker Documentary](https://www.youtube.com/watch?v=TVgJmAJsOeQ)
 - [The Networks Dilemma](https://www.netflix.com/title/81254224)
 - [We Are Legion – The Story Of The Hacktivists](https://www.youtube.com/watch?v=ZHl0WI32XkY)
-- [Web Warriors])https://www.youtube.com/watch?v=0IY7DL0ihYI)
+- [Web Warriors](https://www.youtube.com/watch?v=0IY7DL0ihYI)
 - [Zero Days (2016)](https://www.imdb.com/title/tt5446858/)
