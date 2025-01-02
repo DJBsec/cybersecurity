@@ -3,6 +3,7 @@
 * [Binary Edge](https://www.binaryedge.io/) — Scans the internet for threat intelligence.
 * [Censys](https://censys.io/) — Assessing attack surface for internet connected devices.
 * [CRT sh](https://crt.sh/) — Search for certs that have been logged by CT.
+* [Extension Total](https://www.extensiontotal.com/) - Streamline enterprise supply chain security by quickly detecting malicious, risky, vulnerable, or non-compliant third-party extensions and software packages
 * [Fofa — Search for various threat intelligence.]()
 * [FullHunt](https://fullhunt.io/) — Search and discovery attack surfaces.
 * [GrayHatWarefare](https://grayhatwarfare.com/) — Search public S3 buckets.
