@@ -1,4 +1,5 @@
-# Book's I've Read
+## Leadership Books
+- [Extreme Ownership by Jocko Willink & Leif Babin](https://a.co/d/9Kf2jbM)
 
 ## Story Books with technical Backgrounds 
 *This is the order I would read them in.*
@@ -27,6 +28,3 @@
 - [The Unicorn Project: A Novel About Developers, Digital Disruption, and Thriving in the Age of Data](https://a.co/d/dkafgPm)
 - [The Advantage: Why Organizational Health Trumps Everything Else in Business](https://a.co/d/d3EYFZ9)
 - [The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change](https://a.co/d/asvdDZz)
-
-## Leadership Books
-- [Extreme Ownership by Jocko Willink & Leif Babin](https://a.co/d/9Kf2jbM)
