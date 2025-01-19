@@ -1,7 +1,5 @@
 from gtts import gTTS
 from datetime import datetime
-from pydub import AudioSegment
-from pydub.generators import Silence
 
 # Get today's date in the desired format
 current_date = datetime.now().strftime("%B %d, %Y")  # Example: January 17, 2025
@@ -10,40 +8,48 @@ output_date = datetime.now().strftime("%m-%d-%Y")    # Example: 01-17-2025
 # Intro text
 intro_text = f"Welcome to the CyberSecurity stories for {current_date}. Here are today's top cybersecurity headlines."
 
-# Cybersecurity summaries for the podcast
-stories = [
-    "Chinese state-sponsored hackers exploited vulnerabilities in third-party software to gain access to the U.S. Treasury's systems, including those used by Treasury Secretary Janet Yellen. This breach highlights the risks posed by supply chain attacks and the importance of vetting cybersecurity vendors.",
-    "Cybercriminals have been stealing Walmart Spark account credentials to make unauthorized purchases, leading to financial losses for customers. Victims have discovered mysterious charges on their bank accounts.",
-    "Australia's new cybersecurity laws require companies to report ransomware payments, creating legal challenges and raising privacy concerns. The laws also empower a review board to investigate cyber incidents.",
-    "In his last days in office, President Biden issued an executive order to improve cybersecurity for federal contractors, focusing on secure software development and addressing emerging threats like AI and quantum computing.",
-    "Security researchers warn of a surge in AI-generated phishing emails, which are increasingly sophisticated and harder to detect. These attacks often bypass traditional email security filters.",
-    "The Consumer Electronics Show (CES) 2025 revealed a growing focus on IoT security, with vendors showcasing new products designed to secure smart home devices. However, experts caution that vulnerabilities in older devices remain a significant threat.",
-]
+# Cybersecurity summaries with pauses between stories
+summaries = """
+1. Chinese Hackers Breach U.S. Treasury Department:
+Chinese state-sponsored hackers exploited vulnerabilities in third-party software to gain access to the U.S. Treasury's systems, including those used by Treasury Secretary Janet Yellen. This breach highlights the risks posed by supply chain attacks and the importance of vetting cybersecurity vendors.
 
-# Generate audio for the intro
-print("Generating audio for the intro...")
-intro_audio = gTTS(text=intro_text, lang='en', slow=False)
-intro_audio.save("intro.mp3")
+... 
 
-# Generate audio for each story
-story_audio_files = []
-for idx, story in enumerate(stories, start=1):
-    print(f"Generating audio for story {idx}...")
-    story_audio = gTTS(text=f"Story {idx}: {story}", lang='en', slow=False)
-    story_file = f"story_{idx}.mp3"
-    story_audio.save(story_file)
-    story_audio_files.append(story_file)
+2. Walmart Spark Accounts Hacked in Fraud Scheme:
+Cybercriminals have been stealing Walmart Spark account credentials to make unauthorized purchases, leading to financial losses for customers. Victims have discovered mysterious charges on their bank accounts.
 
-# Combine audio with pauses using pydub
-final_audio = AudioSegment.from_file("intro.mp3")
+... 
 
-# Add each story with a 2-second pause in between
-for story_file in story_audio_files:
-    story_segment = AudioSegment.from_file(story_file)
-    pause = Silence(duration=2000)  # 2-second pause
-    final_audio += story_segment + pause
+3. Australia's New Cyber Laws Spark Debate:
+Australia's new cybersecurity laws require companies to report ransomware payments, creating legal challenges and raising privacy concerns. The laws also empower a review board to investigate cyber incidents.
 
-# Export the combined audio
+... 
+
+4. President Biden’s Final Cybersecurity Executive Order:
+In his last days in office, President Biden issued an executive order to improve cybersecurity for federal contractors, focusing on secure software development and addressing emerging threats like AI and quantum computing.
+
+... 
+
+5. Rising Threat of AI-Driven Phishing Campaigns:
+Security researchers warn of a surge in AI-generated phishing emails, which are increasingly sophisticated and harder to detect. These attacks often bypass traditional email security filters.
+
+... 
+
+6. Cybersecurity Lessons from CES 2025:
+The Consumer Electronics Show (CES) 2025 revealed a growing focus on IoT security, with vendors showcasing new products designed to secure smart home devices. However, experts caution that vulnerabilities in older devices remain a significant threat.
+"""
+
+# Combine the intro and summaries
+full_text = f"{intro_text}\n\n{summaries}"
+
+# Construct the output filename
 output_file = f"CyberSecurityStories-{output_date}.mp3"
-final_audio.export(output_file, format="mp3")
-print(f"Final audio file created: {output_file}")
+
+# Create the audio file
+try:
+    print("Generating audio file...")
+    audio = gTTS(text=full_text, lang='en', slow=False)
+    audio.save(output_file)
+    print(f"Audio file successfully created: {output_file}")
+except Exception as e:
+    print(f"An error occurred while generating the audio file: {e}")
