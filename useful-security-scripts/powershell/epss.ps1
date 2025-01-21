@@ -4,58 +4,63 @@
 ### corresponding Color.                             ###
 ########################################################
 
+# Function to fetch EPSS data from the API
 function Fetch-EpssData {
     param (
-        [Parameter(Mandatory=$true)]
         [string]$CVE,
-
-        [Parameter(Mandatory=$true)]
         [string]$Date
     )
 
-    # Construct the API URL
     $url = "https://api.first.org/data/v1/epss?envelope=true&pretty=true&cve=$CVE&date=$Date"
 
     try {
-        # Send the HTTP GET request
-        $response = Invoke-RestMethod -Uri $url -Method Get
-
-        # Extract and process EPSS and Percentile values
-        if ($response -and $response.data.Count -gt 0) {
-            $epss = [float]$response.data[0].epss * 100
-            $percentile = [float]$response.data[0].percentile * 100
-
-            Write-Host "`nEPSS: $([math]::Round($epss, 2))%" -ForegroundColor Green
-            Print-WithColor $percentile
-        } else {
-            Write-Host "No data available for the given CVE and date." -ForegroundColor Yellow
-        }
+        $response = Invoke-RestMethod -Uri $url -Method Get -ErrorAction Stop
+        return $response
     } catch {
-        # Handle errors
-        Write-Host "Error: $($_.Exception.Message)" -ForegroundColor Red
+        return @{ error = $_.Exception.Message }
     }
 }
 
-function Print-WithColor {
+# Function to determine the color for a percentile value
+function Get-Color {
     param (
-        [Parameter(Mandatory=$true)]
         [float]$Percentile
     )
 
-    # Print Percentile with color based on its value
-    if ($Percentile -ge 0 -and $Percentile -lt 30) {
-        Write-Host "Percentile: $([math]::Round($Percentile, 2))%" -ForegroundColor Green
+    if ($Percentile -lt 30) {
+        return "`e[32m" # Green
     } elseif ($Percentile -ge 30 -and $Percentile -lt 75) {
-        Write-Host "Percentile: $([math]::Round($Percentile, 2))%" -ForegroundColor Yellow
-    } elseif ($Percentile -ge 75) {
-        Write-Host "Percentile: $([math]::Round($Percentile, 2))%" -ForegroundColor Red -NoNewline
-        Write-Host " (High Risk)" -ForegroundColor Red -BackgroundColor White
+        return "`e[33m" # Yellow
+    } else {
+        return "`e[31m" # Red
     }
 }
 
-# Prompt the user for input
+# Main script execution
 $CVE = Read-Host "Enter the CVE (e.g., CVE-2022-26332)"
 $Date = Read-Host "Enter the date (YYYY-MM-DD)"
 
-# Fetch and display the data
-Fetch-EpssData -CVE $CVE -Date $Date
+# Fetch data from the API
+$result = Fetch-EpssData -CVE $CVE -Date $Date
+
+if ($result.error) {
+    Write-Host "Error: $($result.error)" -ForegroundColor Red
+} else {
+    try {
+        if (-not $result.data) {
+            Write-Host "The CVE $CVE is not in the EPSS repository." -ForegroundColor Yellow
+        } else {
+            $data = $result.data[0]
+            $epss = [math]::Round([float]$data.epss * 100, 2)
+            $percentile = [math]::Round([float]$data.percentile * 100, 2)
+
+            $color = Get-Color -Percentile $percentile
+            $resetColor = "`e[0m"
+
+            Write-Host "EPSS: $epss% (Chance of it being exploited in the next 30 days)"
+            Write-Host "$color`Percentile: $percentile%$resetColor"
+        }
+    } catch {
+        Write-Host "Error processing API response: $($_.Exception.Message)" -ForegroundColor Red
+    }
+}
