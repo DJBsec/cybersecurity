@@ -27,20 +27,21 @@ def lookup():
         epss_percentage = round(data.get('epss', 0) * 100, 2)
         ranking_epss_percentage = round(data.get('ranking_epss', 0) * 100, 2)
 
-        # Return the results in JSON format
-        return jsonify({
-            'cve_id': data.get('cve_id', 'N/A'),
-            'summary': data.get('summary', 'N/A'),
-            'cvss_version': data.get('cvss_version', 'N/A'),
-            'cvss_v2': data.get('cvss_v2', 'N/A'),
-            'cvss_v3': data.get('cvss_v3', 'N/A'),
-            'epss': epss_percentage,
-            'ranking_epss': ranking_epss_percentage,
-            'references': data.get('references', []),
-            'published_time': data.get('published_time', 'N/A')
-        })
+        # Return the results to the template
+        return render_template(
+            'results.html',
+            cve_id=data.get('cve_id', 'N/A'),
+            summary=data.get('summary', 'N/A'),
+            cvss_version=data.get('cvss_version', 'N/A'),
+            cvss_v2=data.get('cvss_v2', 'N/A'),
+            cvss_v3=data.get('cvss_v3', 'N/A'),
+            epss=epss_percentage,
+            ranking_epss=ranking_epss_percentage,
+            references=data.get('references', []),
+            published_time=data.get('published_time', 'N/A')
+        )
     except requests.RequestException as e:
-        return jsonify({'error': 'Failed to retrieve data for the provided CVE.', 'details': str(e)}), 500
+        return render_template('error.html', error="Failed to retrieve data for the provided CVE.", details=str(e))
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVE Lookup Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .epss {
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #fff;
+            display: inline-block;
+        }
+        .green { background-color: #28a745; }
+        .yellow { background-color: #ffc107; }
+        .red { background-color: #dc3545; }
+        a { text-decoration: none; color: #007bff; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Results for CVE: {{ cve_id }}</h1>
+        <p><strong>Summary:</strong> {{ summary }}</p>
+        <p><strong>CVSS Version:</strong> {{ cvss_version }}</p>
+        <p><strong>CVSS v2:</strong> {{ cvss_v2 }}</p>
+        <p><strong>CVSS v3:</strong> {{ cvss_v3 }}</p>
+        
+        <p>
+            <strong>EPSS:</strong>
+            <span class="epss 
+                {% if epss <= 35 %}green
+                {% elif epss <= 70 %}yellow
+                {% else %}red
+                {% endif %}">
+                {{ epss }}%
+            </span>
+        </p>
+
+        <p>
+            <strong>Ranking EPSS:</strong>
+            <span class="epss 
+                {% if ranking_epss <= 35 %}green
+                {% elif ranking_epss <= 70 %}yellow
+                {% else %}red
+                {% endif %}">
+                {{ ranking_epss }}%
+            </span>
+        </p>
+
+        <h3>References:</h3>
+        <ul>
+            {% for ref in references %}
+            <li><a href="{{ ref }}" target="_blank">{{ ref }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <p><strong>Published Time:</strong> {{ published_time }}</p>
+    </div>
+</body>
+</html>
