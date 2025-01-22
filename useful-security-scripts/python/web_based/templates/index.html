@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVE Lookup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CVE Lookup</h1>
+        <form id="lookupForm">
+            <label for="cve">Enter CVE Identifier:</label>
+            <input type="text" id="cve" name="cve" placeholder="e.g., CVE-2023-12345" required>
+            <button type="submit">Lookup</button>
+        </form>
+        <div id="output" class="result"></div>
+    </div>
+    <script>
+        document.getElementById('lookupForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const cve = document.getElementById('cve').value;
+            const output = document.getElementById('output');
+            output.innerHTML = '';
+
+            const response = await fetch('/lookup', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `cve=${cve}`
+            });
+            const data = await response.json();
+
+            if (response.ok) {
+                output.innerHTML = `
+                    <h2>Results for ${data.cve_id}</h2>
+                    <p><strong>Summary:</strong> ${data.summary}</p>
+                    <p><strong>CVSS Version:</strong> ${data.cvss_version}</p>
+                    <p><strong>CVSS v2:</strong> ${data.cvss_v2}</p>
+                    <p><strong>CVSS v3:</strong> ${data.cvss_v3}</p>
+                    <p><strong>EPSS:</strong> ${data.epss}%</p>
+                    <p><strong>Ranking EPSS:</strong> ${data.ranking_epss}%</p>
+                    <p><strong>Published Time:</strong> ${data.published_time}</p>
+                    <h3>References:</h3>
+                    <ul>${data.references.map(ref => `<li><a href="${ref}" target="_blank">${ref}</a></li>`).join('')}</ul>
+                `;
+            } else {
+                output.innerHTML = `<p class="error">${data.error}</p>`;
+            }
+        });
+    </script>
+</body>
+</html>
