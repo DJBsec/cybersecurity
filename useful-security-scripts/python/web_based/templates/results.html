@@ -4,22 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CVE Lookup Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h3 {
+            color: #333;
+        }
+        p, li {
+            color: #555;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .green {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .yellow {
+            color: #ffc107;
+            font-weight: bold;
+        }
+        .red {
+            color: #dc3545;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Results for CVE: {{ cve_id }}</h1>
         <p><strong>Summary:</strong> {{ summary }}</p>
-        <p><strong>CVSS Version:</strong> {{ cvss_version }}</p>
-        <p><strong>CVSS v2:</strong> {{ cvss_v2 }}</p>
-        <p><strong>CVSS v3:</strong> {{ cvss_v3 }}</p>
-        <p><strong>EPSS:</strong> {{ epss }}%</p>
-        <p><strong>Ranking EPSS:</strong> {{ ranking_epss }}%</p>
-        <h3>References:</h3>
+
+        <h3>CVSS Scores</h3>
+        <ul>
+            <li><strong>CVSS:</strong> {{ cvss }}</li>
+            <li><strong>CVSS v2:</strong> {{ cvss_v2 }}</li>
+            <li><strong>CVSS v3:</strong> {{ cvss_v3 }}</li>
+        </ul>
+
+        <h3>EPSS Scores</h3>
+        <ul>
+            <li><strong>EPSS:</strong> <span class="{{ epss_color }}">{{ epss }}%</span></li>
+            <li><strong>Ranking EPSS:</strong> <span class="{{ ranking_epss_color }}">{{ ranking_epss }}%</span></li>
+        </ul>
+
+        <h3>References</h3>
         <ul>
             {% for ref in references %}
             <li><a href="{{ ref }}" target="_blank">{{ ref }}</a></li>
             {% endfor %}
         </ul>
+
         <p><strong>Published Time:</strong> {{ published_time }}</p>
         <a href="/">Go Back</a>
     </div>
