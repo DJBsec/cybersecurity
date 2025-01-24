@@ -19,7 +19,7 @@ Researchers have uncovered a sophisticated "magic packet" malware targeting Juni
 ...
 
 2. SonicWall Critical Bug
-A critical vulnerability in SonicWall appliances impacts the SSL-VPN and web management interfaces, tracked as CVE-2025-XXXX. This flaw allows remote attackers to execute arbitrary code without authentication, making it a significant security concern. SonicWall has released a patch to address the issue, and administrators are strongly advised to update affected devices immediately to prevent exploitation.
+A critical vulnerability in SonicWall appliances impacts the SSL-VPN and web management interfaces, tracked as CVE-2025-23006. This flaw allows remote attackers to execute arbitrary code without authentication, making it a significant security concern. SonicWall has released a patch to address the issue, and administrators are strongly advised to update affected devices immediately to prevent exploitation.
 
 ... 
 
