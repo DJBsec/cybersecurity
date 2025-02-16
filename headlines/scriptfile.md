@@ -1,7 +1,13 @@
 
 ## Prompt 1
 
-Can you give me 6 cybersecurity stories that have happened in the last 24 hours. I will need a summary for each of these stories as I will be using them to create an audio podcast. These stories should offer a mix of technical, practical, and policy-focused topics that can spark insightful discussion.
+I am going to give you some links to some cyber security stories. I will need a 4-5 sentence summary for each of these stories as I will be using them to create an audio podcast.
+
+Story 1: https://www.microsoft.com/en-us/security/blog/2025/02/13/storm-2372-conducts-device-code-phishing-campaign/
+Story 2: https://cybersecuritynews.com/new-go-based-malware-exploits-telegram-and-use-it-as-c2-channel/
+Story 3: https://www.csoonline.com/article/3825425/ciso-success-story-how-la-county-trains-and-retrains-workers-to-fight-phishing.html
+Story 4: https://www.bleepingcomputer.com/news/security/hackers-exploit-authentication-bypass-in-palo-alto-networks-pan-os/
+Story 5: https://www.theregister.com/2025/02/15/russia_spies_spoofing_teams/
 
 ## Prompt 2 to get into MD
 
