@@ -11,65 +11,36 @@ intro_text = f"Welcome to the CyberSecurity stories for {current_date}. Here are
 # Cybersecurity summaries with pauses between stories
 summaries = """
 
-We will start with Network Security    
+Story 1: Lazarus Group Targets Developers with Infostealer Malware
 
-1. Stealthy 'Magic Packet' Malware Targets Juniper VPN Gateways
-Researchers have uncovered a sophisticated "magic packet" malware targeting Juniper VPN gateways, exploiting undocumented features to maintain persistent and covert access. The malware uses specially crafted packets to activate malicious capabilities, avoiding traditional detection methods. This advanced threat could allow attackers to compromise sensitive network communications. Organizations using Juniper VPNs are urged to monitor network traffic for anomalies and apply available patches.... 
+The North Korean-linked Lazarus Group has initiated a campaign targeting software developers using infostealer malware. They employ social engineering tactics, such as fake job interviews and compromised NPM packages, to trick developers into executing malicious scripts. The malware utilizes obfuscation techniques like Base64 encoding and zlib compression to conceal its code. Key components include a Python script that decodes and executes the malware, leading to the theft of sensitive information from developers' systems.
 
-...
+Story 2: SonicWall Firewall Vulnerability Exploited Post PoC Release
 
-2. SonicWall Critical Bug
-A critical vulnerability in SonicWall appliances impacts the SSL-VPN and web management interfaces, tracked as CVE-2025-23006. This flaw allows remote attackers to execute arbitrary code without authentication, making it a significant security concern. SonicWall has released a patch to address the issue, and administrators are strongly advised to update affected devices immediately to prevent exploitation.
+Attackers are actively exploiting an authentication bypass vulnerability in SonicWall firewalls following the release of a proof-of-concept (PoC) exploit. This flaw affects the SSLVPN authentication mechanism in specific SonicOS versions, allowing remote attackers to hijack active SSL VPN sessions without authentication. SonicWall has urged users to promptly update their firmware to mitigate this threat.
 
-... 
+Story 3: PirateFi Game on Steam Distributes Vidar Malware
 
-3. QNAP Fixes Six rsync Vulnerabilities in HBS NAS Backup App
-QNAP has resolved six critical vulnerabilities in the Hybrid Backup Sync (HBS) app used for NAS devices. The flaws include command injection, privilege escalation, and directory traversal vulnerabilities, potentially allowing attackers to compromise backups or access sensitive data. QNAP advises users to install the latest HBS updates to mitigate risks.
+A free-to-play game named PirateFi was found distributing the Vidar infostealing malware to unsuspecting users on the Steam platform. Available between February 6th and 12th, the game was downloaded by up to 1,500 users. Steam has notified potentially affected users, advising them to run full system scans and consider reinstalling Windows as a precaution.
 
-... 
+Story 4: New Phishing Kit Bypasses Two-Factor Authentication
 
-4. Critical Palo Alto Firewall Vulnerabilities
-Multiple vulnerabilities have been disclosed in Palo Alto Networks firewalls, including a critical remote code execution (RCE) flaw with a CVSS score of 9.8. Attackers can exploit these issues to bypass authentication, execute arbitrary code, and gain control over systems. Organizations using Palo Alto firewalls should immediately apply patches to safeguard their networks.
+A phishing kit named Astaroth has been identified targeting Gmail, Yahoo, and Microsoft accounts. It bypasses two-factor authentication (2FA) by acting as a man-in-the-middle, capturing tokens, credentials, and session cookies in real-time. This method renders traditional phishing defenses less effective, highlighting the need for enhanced security measures.
 
-... 
+Story 5: North Korean IT Workers Infiltrate International Companies
 
-In Phishing News - - - 
+North Korean IT workers have been securing remote positions in international companies using false identities. This practice violates international sanctions and poses significant cybersecurity risks, including data theft and the installation of backdoors on compromised systems. The Insikt Group reports that these operatives use sophisticated malware and front companies to evade detection.
 
-1. Tycoon 2FA Phishing Kit Using Specially Crafted Code
-A new phishing kit called "Tycoon" is leveraging adversary-in-the-middle (AiTM) techniques to bypass two-factor authentication (2FA). By intercepting credentials and session tokens, this kit enables attackers to compromise accounts with enhanced security measures. Organizations are advised to adopt FIDO2-based MFA solutions and educate users about phishing risks.
+Story 6: PostgreSQL Bug Exploited in US Treasury Attack
 
-... 
-
-2. Fake Microsoft Teams Page Drops Malware on Windows
-Cybercriminals are using a fake Microsoft Teams login page to distribute malware on Windows systems. Victims are lured into downloading malicious files disguised as login tools, leading to credential theft and unauthorized access. Employees should verify URLs, avoid downloading suspicious files, and use official Microsoft apps for secure access.
-
-... 
-
-In our last topic for the day lets look at Ransomware & Compromise
-
-1. Microsoft Outlook Zero-Click RCE Vulnerability (CVE-2025-21298)
-A critical zero-click remote code execution (RCE) vulnerability has been identified in Microsoft Outlook. Tracked as CVE-2025-21298, this flaw allows attackers to execute malicious code by simply sending a specially crafted RTF email. Victims don't need to interact with the email for the attack to succeed. Microsoft has issued a patch as part of their January 2025 updates, and all users are urged to apply it immediately.
-...
-
-2. FBI: North Korean IT Workers Steal Source Code to Extort Employers
-The FBI warns about North Korean IT workers infiltrating international companies under fake identities. These actors gain access to source code repositories and critical systems, later using this access to extort employers with threats of data exposure. Businesses are urged to implement thorough vetting processes and monitor for suspicious activities within their teams.
-
-...
-
-3. Ransomware Attacking VMware ESXi Hosts
-A ransomware campaign is targeting VMware ESXi hosts, exploiting unpatched vulnerabilities to encrypt virtual machines. This approach can disrupt entire infrastructures, demanding ransoms for decryption keys. Administrators should ensure ESXi systems are fully patched and utilize immutable backups to mitigate potential damage.
-
-...
-
-4. $4.88M Was the Average Cost of a Data Breach in 2024
-A 2024 report reveals the average cost of a data breach was an astounding $4.88 million, highlighting the growing financial and reputational risks of cyberattacks. The report emphasizes the importance of employee training, robust incident response plans, and advanced threat detection tools in reducing breach costs and impacts.
+A high-severity SQL injection vulnerability in the PostgreSQL interactive tool was exploited alongside a zero-day in BeyondTrust software to breach the US Treasury in December. Researchers from Rapid7 disclosed that the PostgreSQL flaw was crucial to the attack, emphasizing the need for timely patching and vigilance against complex exploit chains.
 """
 
 # Combine the intro and summaries
 full_text = f"{intro_text}\n\n{summaries}"
 
 # Construct the output filename
-output_file = f"CyberSecurityStories-{output_date}.mp3"
+output_file = f"E:\CyberSecurityStories-{output_date}.mp3"
 
 # Create the audio file
 try:
