@@ -6,32 +6,38 @@ current_date = datetime.now().strftime("%B %d, %Y")  # Example: January 17, 2025
 output_date = datetime.now().strftime("%m-%d-%Y")    # Example: 01-17-2025
 
 # Intro text
-intro_text = f"Welcome to the CyberSecurity stories for {current_date}. Here are today's top cybersecurity headlines."
+intro_text = f"Welcome to the CyberSecurity News for {current_date}. Here are today's top cybersecurity headlines."
 
 # Cybersecurity summaries with pauses between stories
 summaries = """
 
-Here are concise summaries of the provided cybersecurity stories:
+**Story 1: Hackers Exploit Microsoft Teams Meeting Invites for Phishing Attacks**
 
-**Story 1: Storm-2372 Conducts Device Code Phishing Campaign**
+Cybercriminals, identified as the Storm-2372 group, are conducting sophisticated phishing attacks by abusing Microsoft Teams meeting invites. Active since August 2024, these attackers impersonate officials from organizations like the U.S. Department of State and the European Parliament. They lure victims into authenticating through Microsoft's Device Code workflow, enabling unauthorized access to Microsoft 365 accounts without requiring passwords or multi-factor authentication. This method leverages legitimate Microsoft infrastructure, making detection challenging. 
 
-Microsoft has identified an ongoing phishing campaign by the threat actor group Storm-2372, active since August 2024. The attackers impersonate prominent individuals on platforms like WhatsApp, Signal, and Microsoft Teams to build trust with targets. They then send fake Teams meeting invitations, prompting recipients to enter authentication codes on legitimate Microsoft login pages. This process allows the attackers to capture access tokens, granting unauthorized access to victims' emails and cloud storage without needing passwords or multi-factor authentication. 
+**Story 2: Russian Threat Actors Target Microsoft 365 Accounts via Device Code Authentication**
 
-**Story 2: New Go-Based Malware Exploits Telegram as C2 Channel**
+Security researchers have uncovered multiple Russian threat actors conducting social engineering and spear-phishing campaigns aimed at compromising Microsoft 365 accounts. These groups exploit the Device Code Authentication feature, directing victims to legitimate Microsoft URLs and prompting them to enter device codes. Once authenticated, attackers gain unauthorized access to accounts, bypassing traditional security measures. The campaigns have proven highly effective, surpassing traditional phishing methods in success rates. 
 
-Researchers have discovered a new backdoor malware written in Go that utilizes Telegram as its command-and-control (C2) channel. Although still under development, the malware is fully operational, capable of executing PowerShell commands, establishing persistence, and self-deletion. By leveraging Telegram's API, the malware communicates with attackers, posing significant challenges for cybersecurity defenses due to the use of legitimate cloud-based applications for malicious activities. 
+**Story 3: Ransomware-as-a-Service Fuels Fourfold Increase in Attacks**
 
-**Story 3: LA County's Strategy to Combat Phishing Through Employee Training**
+The rise of Ransomware-as-a-Service (RaaS) platforms has led to a significant increase in ransomware attacks, with incidents quadrupling over the past year. These platforms enable even low-skilled attackers to launch sophisticated campaigns by providing ready-made ransomware tools. The growing sophistication, agility, and evasive nature of these attacks pose substantial challenges to cybersecurity defenses. Organizations are urged to adopt advanced security measures to combat this escalating threat. 
 
-Los Angeles County has implemented a comprehensive training program to educate and retrain its workforce in identifying and combating phishing attacks. The initiative focuses on raising awareness about phishing tactics, promoting best practices for email security, and conducting regular simulations to test employees' responses to potential threats. This proactive approach aims to strengthen the county's cybersecurity posture by empowering employees to recognize and report phishing attempts effectively.
+**Story 4: CISA Issues 20 Advisories on Industrial Control System Vulnerabilities**
 
-**Story 4: Hackers Exploit Authentication Bypass in Palo Alto Networks PAN-OS**
+The Cybersecurity and Infrastructure Security Agency (CISA) has released twenty new advisories addressing critical vulnerabilities in Industrial Control Systems (ICS). The advisories cover products from vendors such as Siemens, ORing, mySCADA, and Mitsubishi Electric. Each advisory details specific vulnerabilities that could allow attackers to disrupt operations, gain unauthorized access, or execute malicious code. Organizations using these systems are strongly advised to apply recommended patches and mitigation strategies to secure their infrastructure. 
 
-Attackers are actively exploiting a recently patched authentication bypass vulnerability (CVE-2025-0108) in Palo Alto Networks' PAN-OS firewalls. This flaw allows unauthenticated users to access certain PHP scripts via the management web interface, potentially compromising system integrity and confidentiality. Administrators are strongly advised to update their systems to the latest firmware versions to mitigate this security risk. 
+**Story 5: EarthKapre APT Employs Weaponized PDFs to Compromise Windows Systems**
 
-**Story 5: Suspected Russian Spies Caught Spoofing Teams Invites**
+The advanced persistent threat group known as EarthKapre, also referred to as RedCurl, has been targeting private-sector organizations, especially in the legal sector. They employ phishing emails disguised as job applications containing malicious PDF attachments. These PDFs lead victims to download files that, once executed, initiate a multi-stage malware infection. The attack chain includes sophisticated techniques like DLL side-loading and multi-stage encryption, aiming to exfiltrate sensitive data and conduct corporate espionage. 
 
-Suspected Russian cyber spies have been detected sending fraudulent Microsoft Teams meeting invitations to infiltrate networks of government and business entities. By posing as trusted contacts, these attackers trick recipients into providing authentication tokens, granting unauthorized access to sensitive information such as emails and cloud data. This campaign, attributed to the group known as Storm-2372, has been active since August 2024 and highlights the need for heightened vigilance against sophisticated phishing tactics.  
+**Story 6: XELERA Ransomware Targets Job Seekers with Malicious Word Documents**
+
+A new ransomware campaign dubbed "XELERA" is specifically targeting job seekers by distributing malicious Word documents disguised as job offers from reputable organizations. Upon opening these documents, an infection chain is triggered, leading to the deployment of ransomware that encrypts the victim's data. The attackers demand a ransom in cryptocurrency for data recovery. This campaign underscores the importance of vigilance and caution when handling unsolicited job offers and attachments. 
+
+**Story 7: 'whoAMI' Attack Exploits AWS AMI Name Confusion for Remote Code Execution**
+
+Cybersecurity researchers have identified a novel attack, termed "whoAMI," that exploits name confusion in Amazon Web Services (AWS) Amazon Machine Images (AMIs). Attackers publish malicious AMIs with names matching legitimate ones. If developers do not specify the owner when searching for AMIs, they might inadvertently use the malicious image. This can grant attackers remote code execution within the victim's AWS environment. AWS has addressed this issue, and users are advised to specify image owners explicitly to prevent such attacks. 
 """
 
 # Combine the intro and summaries
