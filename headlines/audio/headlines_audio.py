@@ -13,11 +13,11 @@ summaries = """
 
 **Story 1: Hackers Exploit Microsoft Teams Meeting Invites for Phishing Attacks**
 
-Cybercriminals, identified as the Storm-2372 group, are conducting sophisticated phishing attacks by abusing Microsoft Teams meeting invites. Active since August 2024, these attackers impersonate officials from organizations like the U.S. Department of State and the European Parliament. They lure victims into authenticating through Microsoft's Device Code workflow, enabling unauthorized access to Microsoft 365 accounts without requiring passwords or multi-factor authentication. This method leverages legitimate Microsoft infrastructure, making detection challenging. 
+Cybercriminals, identified as the Storm-2372 group, are conducting sophisticated phishing attacks by abusing Microsoft Teams meeting invites. Active since August 2024, these attackers impersonate officials from organizations like the U.S. Department of State and the European Parliament. They lure victims into authenticating through Microsoft's Device Code workflow, enabling unauthorized access to Microsoft 3 6 5 accounts without requiring passwords or multi-factor authentication. This method leverages legitimate Microsoft infrastructure, making detection challenging. 
 
-**Story 2: Russian Threat Actors Target Microsoft 365 Accounts via Device Code Authentication**
+**Story 2: Russian Threat Actors Target Microsoft 3 6 5 Accounts via Device Code Authentication**
 
-Security researchers have uncovered multiple Russian threat actors conducting social engineering and spear-phishing campaigns aimed at compromising Microsoft 365 accounts. These groups exploit the Device Code Authentication feature, directing victims to legitimate Microsoft URLs and prompting them to enter device codes. Once authenticated, attackers gain unauthorized access to accounts, bypassing traditional security measures. The campaigns have proven highly effective, surpassing traditional phishing methods in success rates. 
+Security researchers have uncovered multiple Russian threat actors conducting social engineering and spear-phishing campaigns aimed at compromising Microsoft 3 6 5 accounts. These groups exploit the Device Code Authentication feature, directing victims to legitimate Microsoft URLs and prompting them to enter device codes. Once authenticated, attackers gain unauthorized access to accounts, bypassing traditional security measures. The campaigns have proven highly effective, surpassing traditional phishing methods in success rates. 
 
 **Story 3: Ransomware-as-a-Service Fuels Fourfold Increase in Attacks**
 
@@ -44,7 +44,7 @@ Cybersecurity researchers have identified a novel attack, termed "whoAMI," that 
 full_text = f"{intro_text}\n\n{summaries}"
 
 # Construct the output filename
-output_file = f"E:\CyberSecurityStories-{output_date}.mp3"
+output_file = f"E:\\GIT\\djbsec.github.io\\assets\\audio\\news\\CyberSecurityNews-{output_date}.mp3"
 
 # Create the audio file
 try:
