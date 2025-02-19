@@ -12,45 +12,46 @@ intro_text = f"Welcome to the CyberSecurity News for {current_date}. Here are to
 # Cybersecurity summaries
 summaries = """
 
-**Story 1: $4.5M Grant Bolsters UA Little Rock's Cybersecurity Education**
 
-The University of Arkansas at Little Rock has received a $4.5 million grant to enhance its cybersecurity education programs. This funding aims to develop advanced curricula, provide scholarships, and establish partnerships with industry leaders to prepare students for the growing demand in the cybersecurity sector. The initiative underscores the university's commitment to addressing the national shortage of cybersecurity professionals. citeturn0search0
+##Story 1: CISA Warns of Active Exploitation of Palo Alto PAN-OS Vulnerability
 
-**Story 2: Ukraine Launches Major Cyber Attack on Russian Gas Infrastructure**
+The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent alert regarding the active exploitation of a high-severity authentication bypass vulnerability (CVE-2025-0108) in Palo Alto Networks' PAN-OS. This flaw allows unauthenticated attackers to bypass authentication controls and execute specific PHP scripts, potentially compromising system integrity. Organizations using affected PAN-OS versions are strongly advised to apply the latest patches and restrict management interface access to trusted internal IP addresses. The EPSS Score for these vulnerabilities is - 
+EPSS Score for CVE-2025-0111 is 0.04%
+EPSS Score for CVE-2025-0108 is 0.04%
+EPSS Score for CVE-2024-9474 is 97.48%
 
-Ukrainian cyber forces have reportedly initiated a significant cyber attack targeting Russia's gas infrastructure. This offensive aims to disrupt the operational capabilities of Russian energy facilities, marking a strategic move in the ongoing cyber warfare between the two nations. The attack highlights the escalating use of cyber operations in geopolitical conflicts. 
+## Story 2: SonicWall SonicOS SSLVPN Zero-Day Actively Exploited
 
-**Story 3: Hidden Malware in WordPress Websites Allows Remote Code Execution**
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a warning about a critical zero-day vulnerability (CVE-2024-53704) in SonicWall's SonicOS. This flaw allows remote attackers to hijack active SSL VPN sessions without credentials and is currently being exploited in the wild. CISA mandates that federal agencies patch affected systems by March 11, 2025, and recommends immediate remediation for all organizations using SonicWall devices. 
+EPSS Score for CVE-2024-53704 is 0.05%
 
-Security researchers have uncovered a sophisticated malware campaign targeting WordPress websites. Attackers are embedding malicious code within the 'mu-plugins' directory, enabling remote execution of code, full server compromise, data theft, and persistent control over infected sites. Website owners are urged to implement file integrity monitoring and enforce strict security measures to mitigate this threat. 
+## Story 3: Juniper Networks Patches Critical Authentication Bypass
 
-**Story 4: Dutch Police Seize 127 Servers of Bulletproof Hosting Service Zservers**
+Juniper Networks has released patches for a critical vulnerability (CVE-2025-21589) affecting its Session Smart Router (SSR) devices. Discovered during internal security testing, this flaw allows network-based attackers to bypass authentication and gain administrative control over the devices. Administrators are advised to update to the latest firmware versions to secure their networks against potential exploits. 
 
-Dutch authorities have seized 127 servers belonging to the bulletproof hosting provider Zservers/XHost. This action follows sanctions imposed by the US, UK, and Australia against the service for supporting Russian ransomware operations, particularly the LockBit group. The crackdown aims to disrupt cybercriminal infrastructure and deter future illicit activities. 
+## Story 4: OpenSSH Fixes Flaws Enabling MitM and DoS Attacks
 
-**Story 5: New Data-Stealing Malware Exploits Microsoft Outlook**
+OpenSSH has addressed two vulnerabilities that could facilitate man-in-the-middle (MitM) and denial-of-service (DoS) attacks. Researchers from Qualys identified these flaws, which, when combined, could allow attackers to bypass server key verification in OpenSSH clients. Users are encouraged to update their OpenSSH installations to prevent potential exploitation. :contentReference[oaicite:0]{index=0}
 
-A newly identified family of data-stealing malware is leveraging Microsoft Outlook to compromise systems. The malware initiates attacks through stolen credentials, exploiting Outlook's features to disseminate malicious content and exfiltrate sensitive information. Organizations are advised to strengthen email security protocols and monitor for unusual activities within their networks. citeturn0search3
+## Story 5: Ransomware Attack Shuts Down Five Michigan Casinos
 
-**Story 6: RansomHub Ransomware Expands to Multiple Operating Systems**
+A ransomware attack has forced the closure of five Kewadin Casinos across Michigan, affecting locations in Manistique, Hessel, St. Ignace, Christmas, and Sault Ste. Marie. While hotels remain open to current guests, new check-ins are suspended. The Sault Tribe of Chippewa Indians, which operates the casinos, is working with third-party experts to restore systems and investigate the breach. 
 
-The RansomHub ransomware group has evolved its tactics to target a range of operating systems, including Windows, VMware ESXi, Linux, and FreeBSD. By developing platform-specific encryption methods and exploiting known vulnerabilities, the group has significantly broadened its attack surface. Entities across various sectors are urged to apply security patches promptly and implement robust defense strategies. 
+## Story 6: Chinese Hackers Exploit Microsoft App-V Tool to Evade Detection
 
-**Story 7: The High-Stakes Disconnect in ICS/OT Security**
+The Chinese advanced persistent threat group "Mustang Panda" has been observed abusing Microsoft's Application Virtualization (App-V) Injector utility to inject malicious payloads into legitimate processes. This technique helps the attackers evade detection by antivirus software. The group primarily targets government entities in the Asia-Pacific region through spear-phishing campaigns. 
 
-Recent incidents have exposed a critical gap in securing Industrial Control Systems (ICS) and Operational Technology (OT) environments. Traditional IT security measures often fall short in these settings, necessitating specialized controls and dedicated budgets to protect critical infrastructure. Implementing tailored cybersecurity strategies is essential to address the unique challenges posed by ICS/OT systems. 
+## Story 7: Weaponized PDFs Deliver Lumma InfoStealer to Educational Institutions
 
-**Story 8: Ransomware Gangs Accelerate Encryption Timelines**
+A new campaign targeting educational institutions involves the distribution of weaponized PDF documents embedded with Lumma InfoStealer malware. These malicious PDFs contain LNK files that, when executed, initiate a multi-stage infection process to steal sensitive data. Educational organizations are advised to implement robust cybersecurity measures to defend against such threats. 
 
-New research indicates that ransomware groups are reducing the time between initial network infiltration and system encryption to an average of 17 hours. This rapid execution leaves organizations with a narrow window to detect and respond to attacks. Enhanced monitoring and swift incident response protocols are critical to mitigating the impact of such accelerated ransomware operations. 
+## Story 8: New Snake Keylogger Variant Targets Windows Systems
 
-**Story 9: Microsoft Uncovers New XCSSET macOS Malware Variant**
+A new variant of the Snake Keylogger malware is infecting Windows users, particularly in Asia and Europe. This version utilizes the AutoIt scripting language to deploy itself, adding obfuscation layers to evade detection. Once installed, it logs keystrokes, captures screenshots, and steals clipboard data, compromising user credentials and sensitive information. 
 
-Microsoft has identified a new variant of the XCSSET malware targeting macOS systems. This iteration employs advanced obfuscation techniques, updated persistence methods, and novel infection strategies, enhancing its ability to steal data from applications like Notes and exfiltrate system information. Users are encouraged to maintain up-to-date security measures to defend against this evolving threat. 
+## Story 9: Venture Capital Firm Insight Partners Suffers Cyberattack
 
-**Story 10: X Blocks Signal Contact Links, Flags Them as Malicious**
-
-The social media platform X (formerly Twitter) has begun blocking links to "Signal.me," a URL used by the Signal encrypted messaging service to share contact information. Attempts to post these links result in error messages citing spam or malicious content concerns. This development affects users' ability to share Signal contact links on the platform, prompting discussions about content moderation practices. 
+New York-based venture capital and private equity firm Insight Partners has disclosed a cyberattack on its systems. The breach, resulting from a sophisticated social engineering attack on January 16, 2025, prompted the firm to engage third-party cybersecurity experts and notify law enforcement. While the investigation is ongoing, there is no evidence of continued unauthorized access. 
 """
 
 # Combine the intro and summaries
