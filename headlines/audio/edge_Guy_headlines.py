@@ -12,46 +12,40 @@ intro_text = f"Welcome to the CyberSecurity News for {current_date}. Here are to
 # Cybersecurity summaries
 summaries = """
 
+Story 1: Salt Typhoon Deploys 'JumbledPath' Malware to Spy on U.S. Telecom Providers
+The Chinese state-sponsored hacking group known as Salt Typhoon has been identified deploying a custom malware strain dubbed 'JumbledPath' to infiltrate U.S. telecommunications providers. This sophisticated malware enables the group to intercept communications and exfiltrate sensitive data, posing significant threats to national security and critical infrastructure. The campaign underscores the persistent vulnerabilities within the telecom sector and the advanced capabilities of nation-state actors in cyber espionage. 
 
-##Story 1: CISA Warns of Active Exploitation of Palo Alto PAN-OS Vulnerability
+Story 2: PCI DSS 4.0 Mandates DMARC Implementation by March 31
+The Payment Card Industry Data Security Standard (PCI DSS) version 4.0 has introduced a new requirement for organizations to implement Domain-based Message Authentication, Reporting, and Conformance (DMARC) by March 31. This mandate aims to enhance email security by preventing domain spoofing and phishing attacks, thereby protecting cardholder data from unauthorized access. Organizations are urged to configure DMARC policies appropriately to comply with the standard and strengthen their cybersecurity posture. 
 
-The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent alert regarding the active exploitation of a high-severity authentication bypass vulnerability (CVE-2025-0108) in Palo Alto Networks' PAN-OS. This flaw allows unauthenticated attackers to bypass authentication controls and execute specific PHP scripts, potentially compromising system integrity. Organizations using affected PAN-OS versions are strongly advised to apply the latest patches and restrict management interface access to trusted internal IP addresses. The EPSS Score for these vulnerabilities is - 
-EPSS Score for CVE-2025-0111 is 0.04%
-EPSS Score for CVE-2025-0108 is 0.04%
-EPSS Score for CVE-2024-9474 is 97.48%
+Story 3: Surge in Fake CAPTCHA Attacks Exploiting User Trust
+Cybersecurity experts have observed a significant increase in attacks utilizing fake CAPTCHA verifications to deceive users into clicking on malicious links or downloading malware. These deceptive tactics exploit the common trust users place in CAPTCHA systems, leading to unauthorized access and data breaches. Users are advised to remain vigilant and verify the authenticity of CAPTCHA prompts, especially when encountered on unfamiliar websites. 
 
-## Story 2: SonicWall SonicOS SSLVPN Zero-Day Actively Exploited
+Story 4: Evolving Mobile Phishing Threats Exploit Platform Vulnerabilities
+Recent research indicates that mobile phishing attacks are becoming increasingly sophisticated, exploiting specific vulnerabilities inherent to mobile platforms. Attackers are leveraging SMS, QR codes, and mobile-optimized websites to deliver phishing content, making detection more challenging. The reduced screen size and limited URL visibility on mobile devices contribute to the success of these attacks, emphasizing the need for enhanced mobile security measures. 
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a warning about a critical zero-day vulnerability (CVE-2024-53704) in SonicWall's SonicOS. This flaw allows remote attackers to hijack active SSL VPN sessions without credentials and is currently being exploited in the wild. CISA mandates that federal agencies patch affected systems by March 11, 2025, and recommends immediate remediation for all organizations using SonicWall devices. 
-EPSS Score for CVE-2024-53704 is 0.05%
+Story 5: Proof-of-Concept Exploit Released for Ivanti Endpoint Manager Vulnerabilities
+A proof-of-concept (PoC) exploit has been publicly released for multiple critical vulnerabilities in Ivanti Endpoint Manager. These flaws allow unauthenticated attackers to execute arbitrary code and gain control over affected systems. Organizations utilizing this platform are strongly advised to apply the available patches immediately to mitigate potential exploitation risks. 
 
-## Story 3: Juniper Networks Patches Critical Authentication Bypass
+Story 6: Internal Chat Logs of Black Basta Ransomware Gang Leaked
+Internal chat logs belonging to the Black Basta ransomware group have been leaked online, providing insights into the gang's operations, negotiation tactics, and organizational structure. The leak, which includes discussions about ransom demands and victim interactions, offers a rare glimpse into the inner workings of a prominent cybercriminal organization. This exposure could potentially aid law enforcement agencies in their efforts to combat ransomware activities. 
 
-Juniper Networks has released patches for a critical vulnerability (CVE-2025-21589) affecting its Session Smart Router (SSR) devices. Discovered during internal security testing, this flaw allows network-based attackers to bypass authentication and gain administrative control over the devices. Administrators are advised to update to the latest firmware versions to secure their networks against potential exploits. 
+Story 7: Medusa Ransomware Gang Demands $2 Million from UK Health Provider
+The Medusa ransomware group has demanded a $2 million ransom from HCRG Care Group, a UK-based private health and social services provider. The attackers claim to have exfiltrated 2.275 terabytes of sensitive data, including personal identification documents and staff records. HCRG is currently investigating the incident and has implemented containment measures to prevent further unauthorized access. 
 
-## Story 4: OpenSSH Fixes Flaws Enabling MitM and DoS Attacks
+Story 8: 'Zhong' Malware Exploits AnyDesk to Target Fintech and Cryptocurrency Sectors
+A newly identified malware strain, dubbed 'Zhong,' has been observed exploiting the AnyDesk remote desktop tool to infiltrate systems within the fintech and cryptocurrency industries. The malware employs social engineering tactics, such as phishing emails with malicious attachments, to gain initial access. Once inside, it steals credentials and establishes persistent remote access, posing significant risks to financial data security. 
 
-OpenSSH has addressed two vulnerabilities that could facilitate man-in-the-middle (MitM) and denial-of-service (DoS) attacks. Researchers from Qualys identified these flaws, which, when combined, could allow attackers to bypass server key verification in OpenSSH clients. Users are encouraged to update their OpenSSH installations to prevent potential exploitation. :contentReference[oaicite:0]{index=0}
+Story 9: DeepSeek Found Sharing User Data with ByteDance
+Investigations have revealed that the AI application DeepSeek has been transmitting user data to ByteDance, the parent company of TikTok, without user consent. This unauthorized data sharing raises serious privacy concerns, especially given ByteDance's previous controversies regarding data handling practices. Users are advised to exercise caution and consider removing the DeepSeek app from their devices to protect their personal information. 
 
-## Story 5: Ransomware Attack Shuts Down Five Michigan Casinos
+Story 10: Citrix NetScaler Vulnerability Allows Unauthorized Command Execution
+A high-severity vulnerability has been identified in Citrix NetScaler, potentially allowing authenticated attackers to execute unauthorized commands on affected systems. This flaw, resulting from improper privilege management, could lead to full system compromise if exploited. Administrators are urged to apply the latest patches promptly to secure their networks against potential threats. 
 
-A ransomware attack has forced the closure of five Kewadin Casinos across Michigan, affecting locations in Manistique, Hessel, St. Ignace, Christmas, and Sault Ste. Marie. While hotels remain open to current guests, new check-ins are suspended. The Sault Tribe of Chippewa Indians, which operates the casinos, is working with third-party experts to restore systems and investigate the breach. 
+Story 11: APT-C-28 Group Deploys Fileless RokRat Malware in New Cyber Attack
+The APT-C-28 threat group, also known as ScarCruft, has launched a new cyber espionage campaign utilizing a fileless version of the RokRat malware. This sophisticated attack involves phishing emails containing malicious LNK files that execute obfuscated PowerShell scripts, enabling the group to steal sensitive information without leaving traditional malware footprints. Organizations are advised to implement advanced threat detection mechanisms to identify and mitigate such stealthy attacks. 
 
-## Story 6: Chinese Hackers Exploit Microsoft App-V Tool to Evade Detection
 
-The Chinese advanced persistent threat group "Mustang Panda" has been observed abusing Microsoft's Application Virtualization (App-V) Injector utility to inject malicious payloads into legitimate processes. This technique helps the attackers evade detection by antivirus software. The group primarily targets government entities in the Asia-Pacific region through spear-phishing campaigns. 
-
-## Story 7: Weaponized PDFs Deliver Lumma InfoStealer to Educational Institutions
-
-A new campaign targeting educational institutions involves the distribution of weaponized PDF documents embedded with Lumma InfoStealer malware. These malicious PDFs contain LNK files that, when executed, initiate a multi-stage infection process to steal sensitive data. Educational organizations are advised to implement robust cybersecurity measures to defend against such threats. 
-
-## Story 8: New Snake Keylogger Variant Targets Windows Systems
-
-A new variant of the Snake Keylogger malware is infecting Windows users, particularly in Asia and Europe. This version utilizes the AutoIt scripting language to deploy itself, adding obfuscation layers to evade detection. Once installed, it logs keystrokes, captures screenshots, and steals clipboard data, compromising user credentials and sensitive information. 
-
-## Story 9: Venture Capital Firm Insight Partners Suffers Cyberattack
-
-New York-based venture capital and private equity firm Insight Partners has disclosed a cyberattack on its systems. The breach, resulting from a sophisticated social engineering attack on January 16, 2025, prompted the firm to engage third-party cybersecurity experts and notify law enforcement. While the investigation is ongoing, there is no evidence of continued unauthorized access. 
 """
 
 # Combine the intro and summaries
