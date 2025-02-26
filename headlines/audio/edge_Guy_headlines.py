@@ -12,39 +12,46 @@ intro_text = f"Welcome to the CyberSecurity News for {current_date}. Here are to
 # Cybersecurity summaries
 summaries = """
 
-Story 1: Salt Typhoon Deploys 'JumbledPath' Malware to Spy on U.S. Telecom Providers
-The Chinese state-sponsored hacking group known as Salt Typhoon has been identified deploying a custom malware strain dubbed 'JumbledPath' to infiltrate U.S. telecommunications providers. This sophisticated malware enables the group to intercept communications and exfiltrate sensitive data, posing significant threats to national security and critical infrastructure. The campaign underscores the persistent vulnerabilities within the telecom sector and the advanced capabilities of nation-state actors in cyber espionage. 
 
-Story 2: PCI DSS 4.0 Mandates DMARC Implementation by March 31
-The Payment Card Industry Data Security Standard (PCI DSS) version 4.0 has introduced a new requirement for organizations to implement Domain-based Message Authentication, Reporting, and Conformance (DMARC) by March 31. This mandate aims to enhance email security by preventing domain spoofing and phishing attacks, thereby protecting cardholder data from unauthorized access. Organizations are urged to configure DMARC policies appropriately to comply with the standard and strengthen their cybersecurity posture. 
+**Microsoft Fixes Entra ID Authentication Issue Caused by DNS Change**
 
-Story 3: Surge in Fake CAPTCHA Attacks Exploiting User Trust
-Cybersecurity experts have observed a significant increase in attacks utilizing fake CAPTCHA verifications to deceive users into clicking on malicious links or downloading malware. These deceptive tactics exploit the common trust users place in CAPTCHA systems, leading to unauthorized access and data breaches. Users are advised to remain vigilant and verify the authenticity of CAPTCHA prompts, especially when encountered on unfamiliar websites. 
+   Microsoft has resolved an issue that led to Entra ID DNS authentication failures affecting services utilizing Seamless Single Sign-On and Entra Connect Sync. The problem originated from a recent DNS modification intended to remove duplicate IPv6 CNAMEs, which inadvertently deleted a crucial domain used in the authentication process. This caused authentication requests to fail between 17:18 and 18:35 UTC on February 25, 2025. Microsoft has since reverted the change, restoring full service functionality. citeturn0search0
 
-Story 4: Evolving Mobile Phishing Threats Exploit Platform Vulnerabilities
-Recent research indicates that mobile phishing attacks are becoming increasingly sophisticated, exploiting specific vulnerabilities inherent to mobile platforms. Attackers are leveraging SMS, QR codes, and mobile-optimized websites to deliver phishing content, making detection more challenging. The reduced screen size and limited URL visibility on mobile devices contribute to the success of these attacks, emphasizing the need for enhanced mobile security measures. 
+**GitVenom Campaign Abusing Thousands of GitHub Repositories to Infect Users**
 
-Story 5: Proof-of-Concept Exploit Released for Ivanti Endpoint Manager Vulnerabilities
-A proof-of-concept (PoC) exploit has been publicly released for multiple critical vulnerabilities in Ivanti Endpoint Manager. These flaws allow unauthenticated attackers to execute arbitrary code and gain control over affected systems. Organizations utilizing this platform are strongly advised to apply the available patches immediately to mitigate potential exploitation risks. 
+   A sophisticated malware campaign, dubbed "GitVenom," has been exploiting GitHub's open-source platform to distribute malicious code through thousands of fraudulent repositories. Active since at least 2023, the attackers have created repositories masquerading as legitimate projects, such as automation tools and cryptocurrency utilities. These repositories contain hidden malicious code designed to steal cryptocurrencies and provide remote access to compromised systems. The campaign has primarily impacted users in Russia, Brazil, and Turkey. citeturn0search30
 
-Story 6: Internal Chat Logs of Black Basta Ransomware Gang Leaked
-Internal chat logs belonging to the Black Basta ransomware group have been leaked online, providing insights into the gang's operations, negotiation tactics, and organizational structure. The leak, which includes discussions about ransom demands and victim interactions, offers a rare glimpse into the inner workings of a prominent cybercriminal organization. This exposure could potentially aid law enforcement agencies in their efforts to combat ransomware activities. 
+**New Auto-Color Linux Backdoor Targets North American Governments and Universities**
 
-Story 7: Medusa Ransomware Gang Demands $2 Million from UK Health Provider
-The Medusa ransomware group has demanded a $2 million ransom from HCRG Care Group, a UK-based private health and social services provider. The attackers claim to have exfiltrated 2.275 terabytes of sensitive data, including personal identification documents and staff records. HCRG is currently investigating the incident and has implemented containment measures to prevent further unauthorized access. 
+   Researchers have identified a previously undocumented Linux backdoor named 'Auto-Color,' which was active in attacks between November and December 2024. This malware specifically targeted universities and government organizations in North America and Asia. 'Auto-Color' is noted for its evasive capabilities, allowing it to maintain prolonged access to infected systems and making it challenging to detect and remove. citeturn0search1
 
-Story 8: 'Zhong' Malware Exploits AnyDesk to Target Fintech and Cryptocurrency Sectors
-A newly identified malware strain, dubbed 'Zhong,' has been observed exploiting the AnyDesk remote desktop tool to infiltrate systems within the fintech and cryptocurrency industries. The malware employs social engineering tactics, such as phishing emails with malicious attachments, to gain initial access. Once inside, it steals credentials and establishes persistent remote access, posing significant risks to financial data security. 
+**Windows 10 KB5052077 Update Fixes Broken SSH Connections**
 
-Story 9: DeepSeek Found Sharing User Data with ByteDance
-Investigations have revealed that the AI application DeepSeek has been transmitting user data to ByteDance, the parent company of TikTok, without user consent. This unauthorized data sharing raises serious privacy concerns, especially given ByteDance's previous controversies regarding data handling practices. Users are advised to exercise caution and consider removing the DeepSeek app from their devices to protect their personal information. 
+   Microsoft has released the optional KB5052077 preview cumulative update for Windows 10 version 22H2, addressing nine issues, including a fix for a known problem that disrupted SSH connections. The issue, acknowledged in November 2024, caused the OpenSSH service to fail to start on certain devices, preventing SSH connections. This update aims to resolve the problem, restoring normal SSH functionality for affected users. citeturn0search2
 
-Story 10: Citrix NetScaler Vulnerability Allows Unauthorized Command Execution
-A high-severity vulnerability has been identified in Citrix NetScaler, potentially allowing authenticated attackers to execute unauthorized commands on affected systems. This flaw, resulting from improper privilege management, could lead to full system compromise if exploited. Administrators are urged to apply the latest patches promptly to secure their networks against potential threats. 
+**Belarus-Linked Ghostwriter Uses Macropack-Obfuscated Excel Macros to Deploy Malware**
 
-Story 11: APT-C-28 Group Deploys Fileless RokRat Malware in New Cyber Attack
-The APT-C-28 threat group, also known as ScarCruft, has launched a new cyber espionage campaign utilizing a fileless version of the RokRat malware. This sophisticated attack involves phishing emails containing malicious LNK files that execute obfuscated PowerShell scripts, enabling the group to steal sensitive information without leaving traditional malware footprints. Organizations are advised to implement advanced threat detection mechanisms to identify and mitigate such stealthy attacks. 
+   The Belarus-aligned threat actor known as Ghostwriter has launched a new campaign targeting opposition activists in Belarus and Ukrainian military and government organizations. The attackers employ malware-laden Microsoft Excel documents with obfuscated macros to deliver a variant of the PicassoLoader malware. This campaign, active since November-December 2024, aims to establish persistent access and conduct cyber-espionage activities against the targeted entities. citeturn0search3
 
+**16 Malicious Chrome Extensions Infected Over 3.2 Million Users**
+
+   A coordinated campaign involving at least 16 malicious Chrome extensions has compromised over 3.2 million users worldwide. These extensions, posing as legitimate tools like screen capture utilities and ad blockers, manipulated browser security settings to execute advertising fraud and manipulate search engine results. Despite their removal from the Chrome Web Store, users who have not manually uninstalled these extensions remain at risk. citeturn0search4
+
+**Have I Been Pwned Adds 284M Accounts Stolen by Infostealer Malware**
+
+   The data breach notification service 'Have I Been Pwned' has incorporated over 284 million accounts compromised by information-stealing malware. These accounts were discovered in a 1.5TB collection of stealer logs shared on a Telegram channel known as "ALIEN TXTBASE." The data includes 23 billion rows with 493 million unique website and email address pairs, highlighting the extensive reach of infostealer malware in recent cyber incidents. citeturn0search5
+
+**Max Severity RCE Vulnerability in All Versions of MITRE Caldera**
+
+   A critical remote code execution vulnerability, identified as CVE-2025-27364, has been discovered in all versions of MITRE's Caldera platform, an open-source adversary emulation tool used for red-teaming exercises. The flaw, which has a maximum severity score of 10, allows attackers to execute arbitrary code without user interaction or special privileges. MITRE recommends that all Caldera users immediately update to the latest version to mitigate potential exploitation risks. citeturn0search6
+
+**LockBit Taunts FBI Director Kash Patel with Alleged "Classified" Leak Threat**
+
+   The ransomware group LockBit has issued a provocative message to newly appointed FBI Director Kash Patel, claiming possession of "classified information" that could "destroy" the agency if leaked. This message, published on LockBit's dark web leak site, appears to be an attempt to intimidate and challenge U.S. law enforcement agencies. The authenticity and potential impact of the alleged information remain unverified. citeturn0search7
+
+**UAC-0212 Hackers Launching Destructive Attacks Targeting Critical Infrastructure**
+
+    A sophisticated threat group identified as UAC-0212 has intensified efforts to compromise critical infrastructure systems in Ukraine. Active since July 2024, their attacks focus on sectors such as energy, water supply, grain logistics, and transportation. Utilizing supply-chain compromises, the group deploys destructive payloads and advanced persistence mechanisms to disrupt industrial control systems and operational technology, posing significant risks to national security and public safety. citeturn0search9
 
 """
 
@@ -52,7 +59,7 @@ The APT-C-28 threat group, also known as ScarCruft, has launched a new cyber esp
 full_text = f"{intro_text}\n\n{summaries}"
 
 # Construct the output filename
-output_file = f"E:\\GIT\\djbsec.github.io\\assets\\audio\\news\\CyberSecurityNews-{output_date}.mp3"
+output_file = f"F:\\GIT\\djbsec.github.io\\assets\\audio\\news\\CyberSecurityNews-{output_date}.mp3"
 
 async def generate_audio():
     try:
