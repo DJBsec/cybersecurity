@@ -60,7 +60,7 @@ Danish authorities have issued a warning about rising state-sponsored cyber camp
 full_text = f"{intro_text}\n\n{summaries}"
 
 # Construct the output filename
-output_file = f"F:\\GIT\\djbsec.github.io\\assets\\audio\\news\\CyberSecurityNews-{output_date}.mp3"
+output_file = f"E:\\GIT\\djbsec.github.io\\assets\\audio\\news\\CyberSecurityNews-{output_date}.mp3"
 
 async def generate_audio():
     try:
