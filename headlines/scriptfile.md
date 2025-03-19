@@ -3,14 +3,21 @@
 
 I am going to give you some links to some cyber security stories. I will need a 4-5 sentence summary for each of these stories as I will be using them to create an audio podcast.
 
+https://hackread.com/google-acquires-wiz-for-record-32-billion/
+https://hackread.com/scammers-ad-fraud-apps-google-play-60m-downloads/
+https://www.csoonline.com/article/3848376/critical-vulnerability-in-ami-megarac-bmc-allows-servers-takeover.html
+https://cyberscoop.com/infostealers-cybercrime-surged-2024-flashpoint/
+https://securityaffairs.com/175569/apt/nation-state-actors-and-cybercrime-gangs-abuse-malicious-lnk-files-for-espionage-and-data-theft.html
+https://www.darkreading.com/threat-intelligence/black-basta-league-russian-officials-chat-logs
+https://cybersecuritynews.com/8-year-old-windows-shortcut-zero-day/
+https://cybersecuritynews.com/bybit-hack-sophisticated-multi-stage-attack/
+https://securityaffairs.com/175560/hacking/chatgpt-ssrf-bug-quickly-becomes-a-favorite-attack-vector.html
 
-https://cybersecuritynews.com/100-auto-dealers-hacked-with-a-clickfix-webpage/
-https://thehackernews.com/2025/03/malicious-pypi-packages-stole-cloud.html
-https://cybersecuritynews.com/deepseek-r1-jailbreaked/
-https://securityaffairs.com/175433/malware/new-massjacker-clipper-targets-pirated-software-seekers.html
-https://www.bleepingcomputer.com/news/security/malicious-adobe-docusign-oauth-apps-target-microsoft-365-accounts/
-https://www.bleepingcomputer.com/news/security/fake-security-alert-issues-on-github-use-oauth-app-to-hijack-accounts/
-https://securityaffairs.com/175479/intelligence/denmark-warns-of-increased-state-sponsored-campaigns-targeting-the-european-telcos.html
+
+
+
+
+
 
 
 
